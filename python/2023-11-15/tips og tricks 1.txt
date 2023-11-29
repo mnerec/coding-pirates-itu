@@ -1,0 +1,46 @@
+# spørg om input 
+variabel = input("Angiv dit navn : ")
+
+# er ]ærdien HVERKEN abe eller kat
+if(a != "abe" and a != "kat):
+
+# er værdiern ENTEN abe eller kat
+if(a == "abe" or a == "kat):
+
+# er værdien i listen
+valg = "abe"
+liste = ["abe", "kat"]
+if (valg in liste):
+
+# er værdien IKKE i listen
+valg = "abe"
+liste = ["abe", "kat"]
+if (valg not in liste):
+
+# bliv ved med at spørge
+valg = ""
+while (valg not in liste):
+   valg = input("tast")
+
+# gem tilfældig værdi mellem 1 og 6
+import random
+tal = random.randint(1, 6)
+
+# hent element nummer "TAL" fra en liste
+liste = ["abe", "kat", "zebra", "hane", "kylling", "ko"]
+valg = liste[tal-1]
+
+OPGAVE:
+1. Spillet er ikke afgjort før der er en vinder
+2. Spillet er ikke afgjort før der er 3 kampe med en vinder
+
+TIPS TIL OPGAVE 1:
+vinder = "nobody"
+while (vinder == "nobody)
+  GAME ON!
+
+TIPS TIL OPGAVE 2:
+antal_vindere = 0
+while (antal_vindere < 3)
+  GAME ON!
+

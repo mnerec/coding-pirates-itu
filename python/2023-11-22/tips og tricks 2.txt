@@ -1,0 +1,25 @@
+def minfunktion(parameter1, parameter2):
+	print(parameter1)
+	print(parameter2)
+	return "hej med mig"
+
+def minplus(tal1, tal2):
+	print(tal1)
+	print(tal2)
+	tal3 = tal1 + tal2
+	return tal3
+
+def hvem_vinder(valg1, valg2):
+    
+	#vinder = den der vinder
+	
+	return vinder
+
+
+
+#variabel = minfunktion("hej", "med dig")
+#print(variabel)
+
+variabel = minplus(10, 5)
+print(variabel)
+
